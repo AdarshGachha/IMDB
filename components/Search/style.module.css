@@ -1,0 +1,47 @@
+.frm form {
+  position: relative;
+  z-index: 10;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frm input {
+  width: 65%;
+  padding: 0.75rem 2.25rem;
+  font-size: 1.2rem;
+  color: #141414;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+.frm button {
+  position: relative;
+  cursor: pointer;
+  padding: 0.75rem 2.25rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  margin-left: -3rem;
+  font-weight: 100;
+  font-family: "gilroy";
+  letter-spacing: 2px;
+  color: #adadad;
+  background-color: #141414;
+}
+.frm button:hover{
+  background-color: #adadad;
+  color: #141414;
+  transition: all 0.3s ease-in-out;
+}
+.lnk{
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-family: "gilroy-regular";
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
