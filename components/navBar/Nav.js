@@ -5,7 +5,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import { styles } from "./style.module.css";
 import {
   Navbar,
-  MobileNav,
+  Collapse,
   Typography,
   Button,
   Menu,
@@ -213,9 +213,9 @@ const Nav = () => {
         </IconButton>
         <ProfileMenu />
       </div>
-      <MobileNav open={isNavOpen} className="overflow-scroll">
+      <Collapse open={isNavOpen} className="overflow-scroll">
         <NavList />
-      </MobileNav>
+      </Collapse>
     </Navbar>
       
     </>
